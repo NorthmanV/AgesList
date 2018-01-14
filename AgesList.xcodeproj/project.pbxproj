@@ -13,6 +13,9 @@
 		87DB240E200B9ACA00CD4CB5 /* AgesList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87DB240C200B9ACA00CD4CB5 /* AgesList.xcdatamodeld */; };
 		87DB2410200B9ACA00CD4CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DB240F200B9ACA00CD4CB5 /* Assets.xcassets */; };
 		87DB2413200B9ACA00CD4CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DB2411200B9ACA00CD4CB5 /* LaunchScreen.storyboard */; };
+		87DB241B200BA09000CD4CB5 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB241A200BA09000CD4CB5 /* PersistenceService.swift */; };
+		87DB241E200BE0D100CD4CB5 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB241C200BE0D100CD4CB5 /* Person+CoreDataClass.swift */; };
+		87DB241F200BE0D100CD4CB5 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB241D200BE0D100CD4CB5 /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		87DB240F200B9ACA00CD4CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DB2412200B9ACA00CD4CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87DB2414200B9ACA00CD4CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DB241A200BA09000CD4CB5 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		87DB241C200BE0D100CD4CB5 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		87DB241D200BE0D100CD4CB5 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				87DB2405200B9ACA00CD4CB5 /* AppDelegate.swift */,
+				87DB241A200BA09000CD4CB5 /* PersistenceService.swift */,
 				87DB2407200B9ACA00CD4CB5 /* ViewController.swift */,
 				87DB2409200B9ACA00CD4CB5 /* Main.storyboard */,
 				87DB240F200B9ACA00CD4CB5 /* Assets.xcassets */,
 				87DB2411200B9ACA00CD4CB5 /* LaunchScreen.storyboard */,
 				87DB2414200B9ACA00CD4CB5 /* Info.plist */,
 				87DB240C200B9ACA00CD4CB5 /* AgesList.xcdatamodeld */,
+				87DB241C200BE0D100CD4CB5 /* Person+CoreDataClass.swift */,
+				87DB241D200BE0D100CD4CB5 /* Person+CoreDataProperties.swift */,
 			);
 			path = AgesList;
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				87DB2408200B9ACA00CD4CB5 /* ViewController.swift in Sources */,
+				87DB241B200BA09000CD4CB5 /* PersistenceService.swift in Sources */,
+				87DB241F200BE0D100CD4CB5 /* Person+CoreDataProperties.swift in Sources */,
+				87DB241E200BE0D100CD4CB5 /* Person+CoreDataClass.swift in Sources */,
 				87DB240E200B9ACA00CD4CB5 /* AgesList.xcdatamodeld in Sources */,
 				87DB2406200B9ACA00CD4CB5 /* AppDelegate.swift in Sources */,
 			);
